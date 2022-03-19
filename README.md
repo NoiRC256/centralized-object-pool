@@ -79,7 +79,7 @@ or
 
 ```
 If (ObjectPool.instance.SpawnFromPool(tag, transform.position, Quaternion.identity)
-.TryGetComponent<SomeClass>(out SomeComponent _component))
+.TryGetComponent<SomeClass>(out SomeClass _component))
 {
     // Initialize component here.
 
