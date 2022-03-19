@@ -6,7 +6,7 @@ A simple singleton object pool for Unity.
 - Any GameObject prefab can be pooled, don't have to attach or inherit some particular class.
 - You can directly create and edit pools via the inspector, on a single manager game object.
 - Pools can dynamically expand if they run out of avaliable pooled objects.
-- You don't have to explicitly return a game object back to its pool -- it will be avaliable in the pool as long as it's not active in hierarchy.
+- You don't have to explicitly return a pooled object back to its pool -- it will be avaliable in the pool as long as it's not active in hierarchy.
 
 ## Limitations
 - Only supports GameObject pooling, 
