@@ -86,7 +86,7 @@ If (ObjectPool.instance.SpawnFromPool(tag, transform.position, Quaternion.identi
     _component.gameObject.SetActive(true);
 }
 ```
-If the pooled object has a component, initialization can be put in its `OnEnable()`.
+If the pooled object has a script component, initialization can be put in its `OnEnable()`.
 
 ---
 
