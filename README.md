@@ -32,7 +32,7 @@ Each `Pool` can be identified by a string *tag*.
 1. Create a GameObject, attach the ObjectPool component to it.
 2. Setup pools.
 
-![example](https://ibb.co/SmwZCjp)
+![example](https://i.ibb.co/1XG4Wgx/simple-object-pool-1.jpg)
 
 *tag*: String tag for identifying this pool.
 
