@@ -1,4 +1,4 @@
-# Simple Object Pool
+# Centralized Object Pool
 
 A simple singleton object pool for Unity.
 
