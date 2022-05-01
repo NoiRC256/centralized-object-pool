@@ -15,7 +15,7 @@ A simple singleton object pool for Unity.
   (This won't really be a problem for stuff like bullets and hit VFX that are typically in use for a very short amount of time)
 
 # How It Works
-`ObjectPool` is a singleton class that stores an array of `Pool`, each maintains a pool for a particular prefab in `LinkedList<GameObject>`. These pools can be configured on the inspector, and are initialized on `Awake()`.
+`ObjectPool` is a singleton class that stores an array of `Pool`, each maintains a pool for a particular prefab by `LinkedList<GameObject>`. These pools can be configured on the inspector, and are initialized on `Awake()`.
 
 Each `Pool` can be identified by a string *tag*.
 
